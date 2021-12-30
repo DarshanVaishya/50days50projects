@@ -1,1 +1,1 @@
-console.log("LMAO");
+"use strict";
