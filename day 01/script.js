@@ -10,8 +10,5 @@ panels.forEach((panel) => {
 });
 
 function removeActiveClass() {
-	// panels.forEach((panel) => {
-	// 	panel.classList.remove("active");
-	// });
 	document.querySelector(".active").classList.remove("active");
 }

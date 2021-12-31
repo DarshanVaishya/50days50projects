@@ -49,16 +49,26 @@ body {
 
 .panel.active h3 {
 	opacity: 1;
-	transition: opacity 1.5s ease;
+	transition: opacity 0.3s ease-in 0.4s;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 650px) {
 	.container {
 		width: 100vw;
+		flex-direction: column;
+		height: 100vh;
 	}
 
-	.panel:nth-of-type(4),
+	.panel {
+		border-radius: 30px;
+	}
+
+	.panel h3 {
+		font-size: 1.5rem;
+	}
+
+	/* .panel:nth-of-type(4),
 	.panel:nth-of-type(5) {
 		display: none;
-	}
+	} */
 }
